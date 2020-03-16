@@ -1,0 +1,22 @@
+spring:
+  rabbitmq:
+    host: 175.24.53.222
+    port: 5672
+    username: rabbit
+    password: 123456
+    virtual-host: nz1905
+    listener:
+      direct:
+        acknowledge-mode: manual
+      simple:
+        acknowledge-mode: manual
+  redis:
+    jedis:
+      pool:
+        max-active: 20
+    host: 175.24.53.222
+    port: 6379
+    password: shabidan
+server:
+  port: 8081
+

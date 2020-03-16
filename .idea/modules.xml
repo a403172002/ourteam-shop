@@ -4,8 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/my-shop-api/my-shop-api.iml" filepath="$PROJECT_DIR$/my-shop-api/my-shop-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-shop-basic/my-shop-basic.iml" filepath="$PROJECT_DIR$/my-shop-basic/my-shop-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-basic/my-shop-common/my-shop-common.iml" filepath="$PROJECT_DIR$/my-shop-basic/my-shop-common/my-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-basic/my-shop-entity/my-shop-entity.iml" filepath="$PROJECT_DIR$/my-shop-basic/my-shop-entity/my-shop-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-web/my-shop-index/my-shop-index.iml" filepath="$PROJECT_DIR$/my-shop-web/my-shop-index/my-shop-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-service/my-shop-index-service/my-shop-index-service.iml" filepath="$PROJECT_DIR$/my-shop-service/my-shop-index-service/my-shop-index-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-basic/my-shop-mapper/my-shop-mapper.iml" filepath="$PROJECT_DIR$/my-shop-basic/my-shop-mapper/my-shop-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-shop-api/my-shop-registry-api/my-shop-registry-api.iml" filepath="$PROJECT_DIR$/my-shop-api/my-shop-registry-api/my-shop-registry-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-shop-service/my-shop-service.iml" filepath="$PROJECT_DIR$/my-shop-service/my-shop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-service/my-shop-sms-service/my-shop-sms-service.iml" filepath="$PROJECT_DIR$/my-shop-service/my-shop-sms-service/my-shop-sms-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop-web/my-shop-sso/my-shop-sso.iml" filepath="$PROJECT_DIR$/my-shop-web/my-shop-sso/my-shop-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-shop-web/my-shop-web.iml" filepath="$PROJECT_DIR$/my-shop-web/my-shop-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ourteam-shop.iml" filepath="$PROJECT_DIR$/.idea/ourteam-shop.iml" />
     </modules>

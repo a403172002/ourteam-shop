@@ -6,18 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-shop-basic" />
+        <module name="my-shop-mapper" />
         <module name="my-shop-service" />
-        <module name="my-shop-registry-api" />
         <module name="my-shop-web" />
+        <module name="my-shop-sso" />
+        <module name="my-shop-index-service" />
+        <module name="my-shop-entity" />
+        <module name="my-shop-sms-service" />
+        <module name="my-shop-index" />
+        <module name="my-shop-registry-api" />
+        <module name="my-shop-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-shop-api" target="1.8" />
       <module name="my-shop-basic" target="1.8" />
+      <module name="my-shop-common" target="1.8" />
+      <module name="my-shop-entity" target="1.8" />
+      <module name="my-shop-index" target="1.8" />
+      <module name="my-shop-index-service" target="1.8" />
+      <module name="my-shop-mapper" target="1.8" />
       <module name="my-shop-registry-api" target="1.8" />
       <module name="my-shop-service" target="1.8" />
+      <module name="my-shop-sms-service" target="1.8" />
+      <module name="my-shop-sso" target="1.8" />
       <module name="my-shop-web" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-shop-index" options="-parameters" />
+      <module name="my-shop-index-service" options="-parameters" />
+      <module name="my-shop-sms-service" options="-parameters" />
+      <module name="my-shop-sso" options="-parameters" />
+    </option>
   </component>
 </project>
